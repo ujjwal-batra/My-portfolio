@@ -1,0 +1,112 @@
+<html lang="fr">
+
+<!-- Mirrored from mathieublok.co/project-photographer.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Jun 2020 19:49:54 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Mathieu Blok, French UX UI Designer & Front-Developer">
+<meta name="keywords" content="Portfolio,Webdesign,Graphiste,DA,Developer,Paris,France,HTML,CSS,JS,Mathieu,Mathieu Blok,Blok,Hétic">
+<meta name="Mathieu Blok" content="Matt Blok Book">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/reset.css" rel="stylesheet">
+<link rel="icon" href="assets/img/favicon.ico" />
+<!-- Library CSS -->
+<link rel="stylesheet" href="../unpkg.com/aos%403.0.0-beta.6/dist/aos.css" />
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<!-- Library CSS -->
+<title>Blok Book</title>
+<script src="../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+var page = $(this).attr('href'); // Page cible
+var speed = 750; // Durée de l'animation (en ms)
+$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+return false;
+});
+});
+</script>
+<script src="../unpkg.com/aos%403.0.0-beta.6/dist/aos.js"></script>
+<script src="js/script.js" async></script>
+<script>
+$(window).scroll(function() {
+var scroll = $(window).scrollTop();
+
+if (scroll >= 120) {
+$("nav").addClass("NavFixedBackground");
+} else {
+$("nav").removeClass("NavFixedBackground");
+}
+});
+</script>
+</head>
+
+
+
+<body id="Top" class="Wrapper fadeIn animated ProjectBody">
+	<header>
+		<nav>
+	<div class="NavFixedWrapper">
+		<div class="HeaderNavLeft">
+			<a href="index-2.html" class="Name">Matt Blok <span>👨🏼‍💼</span></a>
+		</div>
+		<div class="HeaderNavRight">
+			<ul>
+				<li><a href=index-2.html#Projects>Work</a></li>
+				<li><a href=index-2.html#About>About</a></li>
+				<li><a href=index-2.html#Contact>Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>	</header>
+
+	<section class="ProjectHeader">
+		<div class="ProjectHeaderWrapper">
+			<h1 class="ProjectNameTemplate BlackColor">Photographer Book</h1>
+			<p class="ProjectDescriptionTemplate">A simple and accessible CMS with personalized functionalities. <br class="BrPhotographerProject">Let’s discover the photographer Fred Leveugle!</p>
+			<div class="ProjectTemplateTagsWrapper">
+				<p class="ProjectTemplateTag">UI Design</p>
+				<p class="ProjectTemplateTag">Feb 2019</p>
+			</div>
+		</div>
+	</section>
+	<section class="ProjectContent">
+		<div class="ProjectContentWrapper">
+			<img class="ProjectContentImg" src="assets/img/projects/fred/home.png" alt="Image Projet">
+			<div class="ProjectContentTxtWrapper">
+				<p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="70"class="ProjectContentTxtTitle">The project</p>
+				<p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="70"class="ProjectContentTxtP">
+					Minimalist portfolio created for a photographer. It’s based on three
+					responsive columns and a simple menu.
+					<span class="StrongProjectTxt">The strength of this Portfolio is based on its management</span> thanks to its CMS.</p>
+					<div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="70">
+						<a class="CTA" href="https://www.fredleveugle.com/" target="_blank">Website<img class="ArrowCta" src="assets/img/aboutus/arrow.svg"></a>
+					</div>
+				</div>
+				<img class="ProjectContentImg" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="100" src="assets/img/projects/fred/menu.png" alt="Image Projet">
+				<div class="ProjectContentTxtWrapper">
+				<p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="70"class="ProjectContentTxtTitle">Back-Office</p>
+				<p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="70"class="ProjectContentTxtP">
+					A personalized Back-Office to <span class="StrongProjectTxt">manage the display of images</span> (order, size, distribution in the different categories). Ability to add titles and create slideshows.</p>
+				</div>
+				<img class="ProjectContentImg" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="100" src="assets/img/projects/fred/backoffice.png" alt="Image Projet">
+				<div class="ProjectContentTxtWrapper">
+					<p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="70"class="ProjectContentTxtTitle">Production</p>
+					<p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="70"class="ProjectContentTxtP">Project carried out in collaboration with <a href="https://crvx.fr/" target="_blank">Rapahel Cerveau</a> as part of my work-study program at Hétic in the 2nd year of the Web Bachelor’s degree.</p>
+				</div>
+			</div>
+		</section>
+		<section class="NextProject">
+			<div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="70">
+				<a class="CTA CTANextProject" href="project-skillcorner.html">Next project
+					<img class="ArrowCta" src="assets/img/aboutus/arrow.svg" alt="Next">
+				</a>
+			</div>
+		</section>
+		<div data-aos="fade-down" data-aos-duration="250" data-aos-easing="ease-in" data-aos-delay="100" class="CircleRotate">
+			<img src="assets/img/pastille.svg" alt="Pastille">
+		</div>
+	</body>
+	
+<!-- Mirrored from mathieublok.co/project-photographer.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Jun 2020 19:49:55 GMT -->
+</html>
